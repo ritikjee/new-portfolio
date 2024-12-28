@@ -5,7 +5,7 @@ import { NextRequest } from "next/server";
 export async function POST(req: NextRequest) {
   const body = await req.json();
 
-  const text = body.messages[0].content;
+  const text = body.messages[body.messages.length - 1].content;
 
   try {
     const generativeAI = new GoogleGenerativeAI(
