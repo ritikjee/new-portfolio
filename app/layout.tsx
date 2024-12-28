@@ -7,7 +7,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Ritik Jha - Full Stack Web Developer",
   description:
-    "Portfolio of Ritik Jha, a full stack web developer specializing in JavaScript/TypeScript, Node.js, and Java.",
+    "Portfolio of Ritik Jha, a full stack web developer specializing in JavaScript/TypeScript, Node.js, Java and DevOps.",
 };
 
 export default function RootLayout({
